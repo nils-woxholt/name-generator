@@ -1,0 +1,13 @@
+{
+  "deployment": {
+    "resourceGroup": "nameGeneratorRG",
+    "location": "eastus",
+    "appName": "name-generator-app",
+    "sku": "Free"
+  },
+  "app": {
+    "source": ".",
+    "branch": "main",
+    "artifactLocation": ""
+  }
+}
